@@ -1,0 +1,30 @@
+{
+  "name": "playwright-sauce-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "testSuite": "npx playwright test",
+    "loginLogout": "npx playwright test 1-loginLogout.spec.ts",
+    "product": "npx playwright test 2-product.spec.ts",
+    "cart": "npx playwright test 3-cart.spec.ts",
+    "checkout": "npx playwright test 4-checkout.spec.ts",
+    "nyc": "npx nyc --reporter=lcov --reporter=text-lcov playwright test",
+    "allure": "npx allure serve allure-results"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.41.2",
+    "@types/node": "^20.11.20",
+    "allure-commandline": "^2.27.0",
+    "allure-playwright": "^2.12.2"
+  },
+  "dependencies": {
+    "csv-parse": "^5.5.3",
+    "exceljs": "^4.4.0",
+    "nyc": "^15.1.0",
+    "winston": "^3.11.0"
+  }
+}
