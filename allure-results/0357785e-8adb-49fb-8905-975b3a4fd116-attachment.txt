@@ -1,0 +1,107 @@
+locator.fill: value: expected string, got undefined
+    at LoginClass.login (C:\Users\Ishan\Desktop\PlayWright\PlayWright-Sauce-Demo\tests\pages\login.ts:33:27)
+    at C:\Users\Ishan\Desktop\PlayWright\PlayWright-Sauce-Demo\tests\specs\1-loginLogout.spec.ts:60:17 {
+  [Symbol(step)]: {
+    stepId: 'pw:api@10',
+    location: {
+      file: 'C:\\Users\\Ishan\\Desktop\\PlayWright\\PlayWright-Sauce-Demo\\tests\\pages\\login.ts',
+      line: 33,
+      column: 27,
+      function: 'LoginClass.login'
+    },
+    category: 'pw:api',
+    title: "locator.fill(input[id='user-name'])",
+    apiName: 'locator.fill',
+    params: {
+      selector: "input[id='user-name']",
+      value: undefined,
+      strict: true
+    },
+    wallTime: 1709105861058,
+    laxParent: true,
+    boxedStack: undefined,
+    steps: [],
+    complete: [Function: complete],
+    endWallTime: 1709105861060,
+    error: {
+      message: 'Error: locator.fill: value: expected string, got undefined',
+      stack: 'Error: locator.fill: value: expected string, got undefined\n' +
+        '    at LoginClass.login (C:\\Users\\Ishan\\Desktop\\PlayWright\\PlayWright-Sauce-Demo\\tests\\pages\\login.ts:33:27)\n' +
+        '    at C:\\Users\\Ishan\\Desktop\\PlayWright\\PlayWright-Sauce-Demo\\tests\\specs\\1-loginLogout.spec.ts:60:17'
+    }
+  }
+}
+2024-02-28 13:07:41:741 error: Login failed
+ExpectError: Timed out 5000ms waiting for expect(locator).toHaveText(expected)
+
+Locator: locator('h3[data-test=\'error\']')
+Expected string: "Epic sadface: Password is required"
+Received string: ""
+Call log:
+  - expect.toHaveText with timeout 5000ms
+  - waiting for locator('h3[data-test=\'error\']')
+
+    at LoginClass.loginWithBlankPassword (C:\Users\Ishan\Desktop\PlayWright\PlayWright-Sauce-Demo\tests\pages\login.ts:71:45)
+    at C:\Users\Ishan\Desktop\PlayWright\PlayWright-Sauce-Demo\tests\specs\1-loginLogout.spec.ts:61:17 {
+  matcherResult: {
+    name: 'toHaveText',
+    expected: 'Epic sadface: Password is required',
+    message: '\x1B[31mTimed out 5000ms waiting for \x1B[39m\x1B[2mexpect(\x1B[22m\x1B[31mlocator\x1B[39m\x1B[2m).\x1B[22mtoHaveText\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m)\x1B[22m\n' +
+      '\n' +
+      "Locator: locator('h3[data-test=\\'error\\']')\n" +
+      'Expected string: \x1B[32m"Epic sadface: Password is required"\x1B[39m\n' +
+      'Received string: \x1B[31m""\x1B[39m\n' +
+      'Call log:\n' +
+      '  \x1B[2m- expect.toHaveText with timeout 5000ms\x1B[22m\n' +
+      "\x1B[2m  - waiting for locator('h3[data-test=\\'error\\']')\x1B[22m\n",
+    pass: false,
+    actual: undefined,
+    log: [
+      'expect.toHaveText with timeout 5000ms',
+      "waiting for locator('h3[data-test=\\'error\\']')"
+    ],
+    timeout: 5000
+  },
+  [Symbol(step)]: {
+    stepId: 'expect@11',
+    category: 'expect',
+    title: 'expect.toHaveText',
+    params: { expected: 'Epic sadface: Password is required' },
+    wallTime: 1709105861076,
+    infectParentStepsWithError: undefined,
+    laxParent: true,
+    isSoft: undefined,
+    boxedStack: undefined,
+    location: {
+      file: 'C:\\Users\\Ishan\\Desktop\\PlayWright\\PlayWright-Sauce-Demo\\tests\\pages\\login.ts',
+      line: 71,
+      column: 45,
+      function: 'LoginClass.loginWithBlankPassword'
+    },
+    steps: [],
+    complete: [Function: complete],
+    endWallTime: 1709105866216,
+    error: {
+      message: 'Error: \x1B[31mTimed out 5000ms waiting for \x1B[39m\x1B[2mexpect(\x1B[22m\x1B[31mlocator\x1B[39m\x1B[2m).\x1B[22mtoHaveText\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m)\x1B[22m\n' +
+        '\n' +
+        "Locator: locator('h3[data-test=\\'error\\']')\n" +
+        'Expected string: \x1B[32m"Epic sadface: Password is required"\x1B[39m\n' +
+        'Received string: \x1B[31m""\x1B[39m\n' +
+        'Call log:\n' +
+        '  \x1B[2m- expect.toHaveText with timeout 5000ms\x1B[22m\n' +
+        "\x1B[2m  - waiting for locator('h3[data-test=\\'error\\']')\x1B[22m\n",
+      stack: 'Error: \x1B[31mTimed out 5000ms waiting for \x1B[39m\x1B[2mexpect(\x1B[22m\x1B[31mlocator\x1B[39m\x1B[2m).\x1B[22mtoHaveText\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m)\x1B[22m\n' +
+        '\n' +
+        "Locator: locator('h3[data-test=\\'error\\']')\n" +
+        'Expected string: \x1B[32m"Epic sadface: Password is required"\x1B[39m\n' +
+        'Received string: \x1B[31m""\x1B[39m\n' +
+        'Call log:\n' +
+        '  \x1B[2m- expect.toHaveText with timeout 5000ms\x1B[22m\n' +
+        "\x1B[2m  - waiting for locator('h3[data-test=\\'error\\']')\x1B[22m\n" +
+        '\n' +
+        '    at LoginClass.loginWithBlankPassword (C:\\Users\\Ishan\\Desktop\\PlayWright\\PlayWright-Sauce-Demo\\tests\\pages\\login.ts:71:45)\n' +
+        '    at C:\\Users\\Ishan\\Desktop\\PlayWright\\PlayWright-Sauce-Demo\\tests\\specs\\1-loginLogout.spec.ts:61:17'
+    }
+  }
+}
+2024-02-28 13:07:46:746 error: Login with blank password failed

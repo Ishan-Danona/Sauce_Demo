@@ -78,3 +78,103 @@
 2024-02-27 16:11:55:1155 [32minfo[39m: [32mlogout passed[39m
 2024-02-27 16:11:56:1156 [32minfo[39m: [32mlogout passed[39m
 2024-02-27 16:11:57:1157 [32minfo[39m: [32mlogout passed[39m
+2024-02-28 12:24:56:2456 [32minfo[39m: [32mLogin passed[39m
+2024-02-28 12:25:05:255 [32minfo[39m: [32mproduct passed[39m
+2024-02-28 12:25:06:256 [32minfo[39m: [32mAdd product to cart passed[39m
+2024-02-28 12:25:09:259 [32minfo[39m: [32mRemove from cart passed[39m
+2024-02-28 12:25:11:2511 [32minfo[39m: [32mlogout passed[39m
+2024-02-28 12:35:32:3532 [32minfo[39m: [32mLogin passed[39m
+2024-02-28 12:35:42:3542 [32minfo[39m: [32mproduct passed[39m
+2024-02-28 12:35:43:3543 [32minfo[39m: [32mAdd product to cart passed[39m
+2024-02-28 12:35:45:3545 [32minfo[39m: [32mRemove from cart passed[39m
+2024-02-28 12:35:48:3548 [32minfo[39m: [32mlogout passed[39m
+2024-02-28 12:42:24:4224 [32minfo[39m: [32mLogin passed[39m
+2024-02-28 12:42:33:4233 [32minfo[39m: [32mproduct passed[39m
+2024-02-28 12:42:34:4234 [32minfo[39m: [32mAdd product to cart passed[39m
+2024-02-28 12:42:36:4236 [32minfo[39m: [32mRemove from cart passed[39m
+2024-02-28 12:42:38:4238 [32minfo[39m: [32mlogout passed[39m
+2024-02-28 13:06:34:634 [32minfo[39m: [32mLogin passed[39m
+2024-02-28 13:06:34:634 [32minfo[39m: [32mAdd product to cart passed[39m
+2024-02-28 13:06:34:634 [32minfo[39m: [32mClick cart button passed[39m
+2024-02-28 13:06:35:635 [32minfo[39m: [32mCart passed[39m
+2024-02-28 13:06:36:636 [32minfo[39m: [32mlogout passed[39m
+2024-02-28 13:07:41:741 [31merror[39m: [31mLogin failed[39m
+2024-02-28 13:07:41:741 [31merror[39m: [31mLogin failed[39m
+2024-02-28 13:07:41:741 [31merror[39m: [31mLogin failed[39m
+2024-02-28 13:07:41:741 [31merror[39m: [31mLogin failed[39m
+2024-02-28 13:07:41:741 [32minfo[39m: [32mLogin passed[39m
+2024-02-28 13:07:42:742 [32minfo[39m: [32mLogin passed[39m
+2024-02-28 13:07:42:742 [32minfo[39m: [32mlogout passed[39m
+2024-02-28 13:07:44:744 [32minfo[39m: [32mLogin passed[39m
+2024-02-28 13:07:44:744 [32minfo[39m: [32mAdd product to cart passed[39m
+2024-02-28 13:07:44:744 [32minfo[39m: [32mClick cart button passed[39m
+2024-02-28 13:07:45:745 [32minfo[39m: [32mproduct passed[39m
+2024-02-28 13:07:45:745 [32minfo[39m: [32mAdd product to cart passed[39m
+2024-02-28 13:07:45:745 [32minfo[39m: [32mCart passed[39m
+2024-02-28 13:07:46:746 [32minfo[39m: [32mRemove from cart passed[39m
+2024-02-28 13:07:46:746 [31merror[39m: [31mLogin with invalid data failed[39m
+2024-02-28 13:07:46:746 [31merror[39m: [31mLogin with blank password failed[39m
+2024-02-28 13:07:46:746 [31merror[39m: [31mLogin with invalid data failed[39m
+2024-02-28 13:07:46:746 [32minfo[39m: [32mlogout passed[39m
+2024-02-28 13:07:46:746 [31merror[39m: [31mLogin with blank username failed[39m
+2024-02-28 13:07:46:746 [32minfo[39m: [32mlogout passed[39m
+2024-02-28 13:07:47:747 [32minfo[39m: [32mLogin passed[39m
+2024-02-28 13:07:47:747 [32minfo[39m: [32mLogin passed[39m
+2024-02-28 13:07:48:748 [32minfo[39m: [32mLogin passed[39m
+2024-02-28 13:07:48:748 [32minfo[39m: [32mAdd product to cart passed[39m
+2024-02-28 13:07:48:748 [32minfo[39m: [32mAdd product to cart passed[39m
+2024-02-28 13:07:48:748 [32minfo[39m: [32mLogin passed[39m
+2024-02-28 13:07:48:748 [32minfo[39m: [32mClick cart button passed[39m
+2024-02-28 13:07:48:748 [32minfo[39m: [32mClick cart button passed[39m
+2024-02-28 13:07:48:748 [32minfo[39m: [32mAdd product to cart passed[39m
+2024-02-28 13:07:48:748 [32minfo[39m: [32mAdd product to cart passed[39m
+2024-02-28 13:07:48:748 [32minfo[39m: [32mClick cart button passed[39m
+2024-02-28 13:07:49:749 [32minfo[39m: [32mCheckout passed[39m
+2024-02-28 13:07:49:749 [32minfo[39m: [32mClick cart button passed[39m
+2024-02-28 13:07:49:749 [32minfo[39m: [32mCheckout passed[39m
+2024-02-28 13:07:49:749 [32minfo[39m: [32mCheckout passed[39m
+2024-02-28 13:07:49:749 [32minfo[39m: [32mlogout passed[39m
+2024-02-28 13:07:50:750 [32minfo[39m: [32mCheckout passed[39m
+2024-02-28 13:07:50:750 [32minfo[39m: [32mlogout passed[39m
+2024-02-28 13:07:50:750 [32minfo[39m: [32mlogout passed[39m
+2024-02-28 13:07:50:750 [32minfo[39m: [32mlogout passed[39m
+2024-02-28 13:10:06:106 [32minfo[39m: [32mLogin passed[39m
+2024-02-28 13:10:06:106 [32minfo[39m: [32mLogin with invalid data passed[39m
+2024-02-28 13:10:06:106 [32minfo[39m: [32mLogin passed[39m
+2024-02-28 13:10:06:106 [32minfo[39m: [32mLogin passed[39m
+2024-02-28 13:10:06:106 [32minfo[39m: [32mLogin with blank password passed[39m
+2024-02-28 13:10:06:106 [32minfo[39m: [32mLogin passed[39m
+2024-02-28 13:10:06:106 [32minfo[39m: [32mLogin passed[39m
+2024-02-28 13:10:07:107 [32minfo[39m: [32mLogin with invalid data passed[39m
+2024-02-28 13:10:07:107 [32minfo[39m: [32mLogin passed[39m
+2024-02-28 13:10:07:107 [32minfo[39m: [32mLogin with blank username passed[39m
+2024-02-28 13:10:08:108 [32minfo[39m: [32mLogin passed[39m
+2024-02-28 13:10:08:108 [32minfo[39m: [32mlogout passed[39m
+2024-02-28 13:10:08:108 [32minfo[39m: [32mLogin passed[39m
+2024-02-28 13:10:08:108 [32minfo[39m: [32mLogin passed[39m
+2024-02-28 13:10:09:109 [32minfo[39m: [32mAdd product to cart passed[39m
+2024-02-28 13:10:09:109 [32minfo[39m: [32mAdd product to cart passed[39m
+2024-02-28 13:10:09:109 [32minfo[39m: [32mAdd product to cart passed[39m
+2024-02-28 13:10:09:109 [32minfo[39m: [32mClick cart button passed[39m
+2024-02-28 13:10:09:109 [32minfo[39m: [32mClick cart button passed[39m
+2024-02-28 13:10:09:109 [32minfo[39m: [32mClick cart button passed[39m
+2024-02-28 13:10:10:1010 [32minfo[39m: [32mLogin passed[39m
+2024-02-28 13:10:10:1010 [32minfo[39m: [32mAdd product to cart passed[39m
+2024-02-28 13:10:10:1010 [32minfo[39m: [32mCheckout passed[39m
+2024-02-28 13:10:10:1010 [32minfo[39m: [32mCart passed[39m
+2024-02-28 13:10:11:1011 [32minfo[39m: [32mproduct passed[39m
+2024-02-28 13:10:11:1011 [32minfo[39m: [32mClick cart button passed[39m
+2024-02-28 13:10:11:1011 [32minfo[39m: [32mAdd product to cart passed[39m
+2024-02-28 13:10:11:1011 [32minfo[39m: [32mlogout passed[39m
+2024-02-28 13:10:11:1011 [32minfo[39m: [32mCheckout passed[39m
+2024-02-28 13:10:11:1011 [32minfo[39m: [32mlogout passed[39m
+2024-02-28 13:10:11:1011 [32minfo[39m: [32mRemove from cart passed[39m
+2024-02-28 13:10:11:1011 [32minfo[39m: [32mCheckout passed[39m
+2024-02-28 13:10:12:1012 [32minfo[39m: [32mlogout passed[39m
+2024-02-28 13:10:12:1012 [32minfo[39m: [32mLogin passed[39m
+2024-02-28 13:10:12:1012 [32minfo[39m: [32mlogout passed[39m
+2024-02-28 13:10:12:1012 [32minfo[39m: [32mlogout passed[39m
+2024-02-28 13:10:12:1012 [32minfo[39m: [32mAdd product to cart passed[39m
+2024-02-28 13:10:13:1013 [32minfo[39m: [32mClick cart button passed[39m
+2024-02-28 13:10:13:1013 [32minfo[39m: [32mCheckout passed[39m
+2024-02-28 13:10:14:1014 [32minfo[39m: [32mlogout passed[39m

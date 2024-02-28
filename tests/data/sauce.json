@@ -1,13 +1,10 @@
 {
   "url": "https://www.saucedemo.com/v1/index.html",
-  "username": "standard_user",
-  "password": "secret_sauce",
   "invalidUsername": "Ishan",
   "invalidPassword": "Hi",
   "blankUsername": "",
   "blankPassword": "",
   "sortOption": "Price (low to high)",
-  "productName": "Sauce Labs Fleece Jacket",
   "addProductName": "Sauce Labs Bolt T-Shirt",
   "removeProductName": "Sauce Labs Bike Light",
   "firstName": "Ishan",

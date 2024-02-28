@@ -5,10 +5,11 @@ import { ProductClass } from "../pages/product";
 import sauce from "../data/sauce.json";
 import fs from "fs";
 import { parse } from "csv-parse/sync";
+import { ReadFromExcel } from "../../util/readFromExcel";
 
 test.describe("Product Page Functionality Test", async () => {
   let page, context;
-  let login, logout, product;
+  let login, logout, product, readFromExcel, excelProductName;
 
   const csvSauces = parse(
     fs.readFileSync(
@@ -26,6 +27,8 @@ test.describe("Product Page Functionality Test", async () => {
     login = new LoginClass(page);
     logout = new LogoutClass(page);
     product = new ProductClass(page);
+    readFromExcel = new ReadFromExcel();
+    excelProductName = await readFromExcel.getProductName();
   });
   for (const csvSauce of csvSauces) {
     test.beforeEach(async () => {
@@ -40,7 +43,7 @@ test.describe("Product Page Functionality Test", async () => {
   });
 
   test("Testing Product Page Functionality for Valid Data", async () => {
-    await product.product(sauce.sortOption, sauce.productName);
+    await product.product(sauce.sortOption, excelProductName[0]);
     await product.addProductToCart(sauce.addProductName);
     await product.removeProductFromCart(sauce.removeProductName);
   });

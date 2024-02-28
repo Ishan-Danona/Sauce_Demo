@@ -6,10 +6,11 @@ import { CartClass } from "../pages/cart";
 import sauce from "../data/sauce.json";
 import fs from "fs";
 import { parse } from "csv-parse/sync";
+import { ReadFromExcel } from "../../util/readFromExcel";
 
 test.describe("Cart Page Functionality Test", async () => {
   let page, context;
-  let login, logout, product, cart;
+  let login, logout, product, cart, readFromExcel, excelProductName;
 
   const csvSauces = parse(
     fs.readFileSync(
@@ -28,6 +29,8 @@ test.describe("Cart Page Functionality Test", async () => {
     logout = new LogoutClass(page);
     product = new ProductClass(page);
     cart = new CartClass(page);
+    readFromExcel = new ReadFromExcel();
+    excelProductName = await readFromExcel.getProductName();
   });
 
   for (const csvSauce of csvSauces) {
@@ -45,6 +48,6 @@ test.describe("Cart Page Functionality Test", async () => {
 
   test("Testing Cart Page Functionality for Valid Data", async () => {
     await cart.clickCartButton();
-    await cart.cart(sauce.productName);
+    await cart.cart(excelProductName[0]);
   });
 });

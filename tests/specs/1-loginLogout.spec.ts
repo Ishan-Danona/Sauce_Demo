@@ -40,24 +40,31 @@ test.describe("Login Logout Page Functionality Test", () => {
       await logout.logout();
     });
   }
+  for (const csvSauce of csvSauces) {
+    test("Testing Login Logout Page Functionality for Invalid Username", async () => {
+      await login.login(sauce.invalidUsername, csvSauce.password);
+      await login.loginWithInvalidData();
+    });
+  }
 
-  test("Testing Login Logout Page Functionality for Invalid Username", async () => {
-    await login.login(sauce.invalidUsername, sauce.password);
-    await login.loginWithInvalidData();
-  });
+  for (const csvSauce of csvSauces) {
+    test("Testing Login Logout Page Functionality for Invalid Password", async () => {
+      await login.login(csvSauce.username, sauce.invalidPassword);
+      await login.loginWithInvalidData();
+    });
+  }
 
-  test("Testing Login Logout Page Functionality for Invalid Password", async () => {
-    await login.login(sauce.username, sauce.invalidPassword);
-    await login.loginWithInvalidData();
-  });
+  for (const csvSauce of csvSauces) {
+    test("Testing Login Logout Page Functionality for Blank Username", async () => {
+      await login.login(sauce.blankUsername, csvSauce.password);
+      await login.loginWithBlankUsername();
+    });
+  }
 
-  test("Testing Login Logout Page Functionality for Blank Username", async () => {
-    await login.login(sauce.blankUsername, sauce.password);
-    await login.loginWithBlankUsername();
-  });
-
-  test("Testing Login Logout Page Functionality for Blank Password", async () => {
-    await login.login(sauce.username, sauce.blankPassword);
-    await login.loginWithBlankPassword();
-  });
+  for (const csvSauce of csvSauces) {
+    test("Testing Login Logout Page Functionality for Blank Password", async () => {
+      await login.login(csvSauce.username, sauce.blankPassword);
+      await login.loginWithBlankPassword();
+    });
+  }
 });

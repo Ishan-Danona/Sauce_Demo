@@ -1,0 +1,6 @@
+2024-02-28 12:35:32:3532 info: Login passed
+[object Promise]   jdshsdkjakjfasdkjfgbsdjkfbgbSDJGKJGBJSKBGJKDASBGJKABDSKJBGVJK
+2024-02-28 12:35:42:3542 info: product passed
+2024-02-28 12:35:43:3543 info: Add product to cart passed
+2024-02-28 12:35:45:3545 info: Remove from cart passed
+2024-02-28 12:35:48:3548 info: logout passed

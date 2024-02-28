@@ -28,7 +28,7 @@ export default defineConfig({
   timeout: 300000,
   use: {
     launchOptions: {
-      slowMo: 1000,
+      // slowMo: 1000,
     },
     // headless: false,
     /* Base URL to use in actions like `await page.goto('/')`. */

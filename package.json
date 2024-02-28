@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "testSuite": "npx playwright test",
+    "specs": "npx playwright test",
     "loginLogout": "npx playwright test 1-loginLogout.spec.ts",
     "product": "npx playwright test 2-product.spec.ts",
     "cart": "npx playwright test 3-cart.spec.ts",

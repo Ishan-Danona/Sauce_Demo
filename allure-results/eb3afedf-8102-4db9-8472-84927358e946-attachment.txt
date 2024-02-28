@@ -1,0 +1,5 @@
+2024-02-28 13:07:44:744 info: Login passed
+2024-02-28 13:07:44:744 info: Add product to cart passed
+2024-02-28 13:07:44:744 info: Click cart button passed
+2024-02-28 13:07:45:745 info: Cart passed
+2024-02-28 13:07:46:746 info: logout passed

@@ -1,0 +1,6 @@
+2024-02-28 12:42:24:4224 info: Login passed
+2024-02-28 12:42:33:4233 info: product passed
+Sauce Labs Fleece Jackethjdvgvghqsbv;kjsbfvjbv.kjsbkgjsfkvbsdjvbsjvbkjxfvbakjfbvkjsabfvgjbsvkjbs
+2024-02-28 12:42:34:4234 info: Add product to cart passed
+2024-02-28 12:42:36:4236 info: Remove from cart passed
+2024-02-28 12:42:38:4238 info: logout passed
